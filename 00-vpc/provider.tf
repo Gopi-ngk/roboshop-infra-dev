@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket = "central-store"
-    key    = "vpc-test"
+    key    = "roboshop-vpc-dev"
     region = "us-east-1"
     encrypt        = true
     use_lockfile = true
