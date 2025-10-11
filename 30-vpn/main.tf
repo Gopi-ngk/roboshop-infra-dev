@@ -1,6 +1,6 @@
 resource "aws_key_pair" "openvpn" {
   key_name   = "openvpn1"
-  public_key = file("C:\\devops\\daws-84s\\openvpn1.pub") # for mac use /
+  public_key = file("C:\\Devops\\daws-82\\openvpn1.pub") # for mac use /
 }
 
 resource "aws_instance" "vpn" {
